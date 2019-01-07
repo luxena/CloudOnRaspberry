@@ -1,0 +1,380 @@
+body{
+    margin: 0;  
+}
+.iconNav{
+    position: relative;
+    font-size: 20px;
+/*    color: #02bccb;*/
+    color: #22b8cf;
+    padding: 2px 10px;
+    float: left;
+}
+
+.iconNav:hover{
+	color: #138496;
+}
+
+.iconCheck{
+    position: relative;
+    font-size: 20px;
+    color: #22b8cf;
+    padding: 2px 10px;
+}
+
+.navbar{
+    background: #E0E0E0;
+    padding: 0px;
+}
+
+
+
+.navbar-nav li:hover{
+   background:lightgrey;
+   color: red;
+}
+
+#logo{
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+}
+
+.img-ico{
+    width: 40px;
+    height: 40px;
+    cursor:pointer;
+}
+
+.img-profile{
+    width: 95px;
+    height: 95px;
+    cursor:pointer;
+}
+
+.img-file{
+    width: 40px;
+    height: 40px;
+    cursor:pointer;
+}
+
+#main{
+    position: relative;
+    margin:auto;
+    background: #ddd;
+    height:1090px;
+}
+
+#form_utente{
+                position: absolute;
+                z-index: 2;
+                font-size: 11px;
+                font-family: Verdana;
+                width: 320px;
+                height: 200px;
+                border: Solid 1px #AAAAAA;
+                top:160px;
+                right: 15px;
+                margin:-100px 0 0 -100px;
+                padding: 20px 30px 20px 30px;
+                vertical-align: middle;
+                display: inline-block;
+                box-shadow: 0 0 16px 0 rgba(0,0,0,.4);
+                background-color: #ffffff;
+                line-height: normal;
+                min-height: 100px;
+                outline: 0;
+}
+
+#form_crea_cartella{
+                position: Absolute;
+                z-index: 1;
+                font-size: 11px;
+                font-family: Verdana;
+                width: 320px;
+                height: 200px;
+                border: Solid 1px #AAAAAA;
+                top:50%;
+                left: 50%;
+                margin:-100px 0 0 -100px;
+                padding: 20px 20px 20px 20px;
+                vertical-align: middle;
+                display: inline-block;
+                box-shadow: 0 0 16px 0 rgba(0,0,0,.4);
+                background-color: #ffffff;
+                line-height: normal;
+                min-height: 100px;
+                outline: 0;
+}
+
+
+
+ #close_form{
+            position: relative;
+            float: right;
+            top:0px;
+            border: none;
+            font-size: 20px;
+            background-color: transparent;  
+        }
+        
+        #titolo_form{
+            top:15%;
+            position: relative;
+            font-size: 18px;
+            color: grey;
+        }
+        
+        #nome_cartella{
+            position: relative;
+            width: 100%;
+            height: 30px;
+            top:30%;
+            text-rendering: auto;
+            color: grey;
+            letter-spacing: normal;
+            word-spacing: normal;
+            text-transform: none;
+            text-indent: 38px;
+            text-shadow: none;
+            display: inline-block;
+            text-align: start;
+            margin: 0em;
+            font: 400 13px system-ui;
+            border: 1px solid #c8c8c8;
+        }
+        
+        #nome_cartella:hover{
+            border: 1px solid grey;
+        }
+        
+        
+        
+        #nome_cartella:active{
+            border: 1px solid blue;
+        }
+
+        #btn_crea_cartella{
+            position: relative;
+            float: right;
+            top:45%;
+            width: 70px;
+            height: 35px;
+            box-sizing: border-box;
+            box-shadow: none;
+            margin: 0;
+            padding: 0;
+            font-family: inherit;
+            
+            font-size: 14px;
+            font-weight: 400;
+            border: 1px solid #f4f4f4;
+            cursor: pointer;
+            display: inline-block;
+            height: 32px;
+            min-width: 80px;
+            padding: 4px 20px 6px;
+            /* pointer-events:none;*/
+            
+        }
+
+
+        #form_crea_file{
+                position: Absolute;
+                z-index: 2;
+                font-size: 11px;
+                font-family: Verdana;
+                width: 320px;
+                height: 200px;
+                border: Solid 1px #AAAAAA;
+                top:50%;
+                left: 50%;
+                margin:-100px 0 0 -100px;
+                padding: 30px 30px 30px 30px;
+                vertical-align: middle;
+                display: inline-block;
+                box-shadow: 0 0 16px 0 rgba(0,0,0,.4);
+                background-color: #ffffff;
+                line-height: normal;
+                min-height: 100px;
+                outline: 0;
+}
+
+        #nome_file{
+            position: relative;
+            width: 100%;
+            height: 30px;
+            top:30%;
+            text-rendering: auto;
+            color: grey;
+            letter-spacing: normal;
+            word-spacing: normal;
+            text-transform: none;
+            text-indent: 38px;
+            text-shadow: none;
+            display: inline-block;
+            text-align: start;
+            margin: 0em;
+            font: 400 13px system-ui;
+            border: 1px solid #c8c8c8;
+        
+        }
+        
+        #nome_file:hover{
+            border: 1px solid grey;
+            
+        }
+        
+        
+        
+        #nome_file:active{
+            border: 1px solid blue;
+        }
+
+
+        #btn_crea_file{
+            position: relative;
+            float: right;
+            top:45%;
+            width: 70px;
+            height: 35px;
+            box-sizing: border-box;
+            box-shadow: none;
+            margin: 0;
+            padding: 0;
+            font-family: inherit;
+            
+            font-size: 14px;
+            font-weight: 400;
+            border: 1px solid #f4f4f4;
+            cursor: pointer;
+            display: inline-block;
+            height: 32px;
+            min-width: 80px;
+            padding: 4px 20px 6px;
+            /* pointer-events:none;*/
+            
+        }
+
+
+        #form_rinomina{
+                position: Absolute;
+                z-index: 2;
+                font-size: 11px;
+                font-family: Verdana;
+                width: 320px;
+                height: 200px;
+                border: Solid 1px #AAAAAA;
+                top:50%;
+                left: 50%;
+                margin:-100px 0 0 -100px;
+                padding: 30px 30px 30px 30px;
+                vertical-align: middle;
+                display: inline-block;
+                box-shadow: 0 0 16px 0 rgba(0,0,0,.4);
+                background-color: #ffffff;
+                line-height: normal;
+                min-height: 100px;
+                outline: 0;
+        }
+
+        #titoloFileFolder,#titoloFile{
+            position: relative;
+            width: 100%;
+            height: 30px;
+            top:30%;
+            text-rendering: auto;
+            color: grey;
+            letter-spacing: normal;
+            word-spacing: normal;
+            text-transform: none;
+            text-indent: 38px;
+            text-shadow: none;
+            display: inline-block;
+            text-align: start;
+            margin: 0em;
+            font: 400 13px system-ui;
+            border: 1px solid #c8c8c8;
+        }
+        
+        #titoloFileFolder,#titoloFile:hover{
+            border: 1px solid grey;
+            
+        }
+        
+        
+        
+        #titoloFileFolder:active{
+            border: 1px solid blue;
+            
+        }
+
+         #btn_rinomina,#btnRinomina{
+            position: relative;
+            float: right;
+            top:45%;
+            width: 70px;
+            height: 35px;
+            box-sizing: border-box;
+            box-shadow: none;
+            margin: 0;
+            padding: 0;
+            font-family: inherit;
+            
+            font-size: 14px;
+            font-weight: 400;
+            border: 1px solid #f4f4f4;
+            cursor: pointer;
+            display: inline-block;
+            height: 32px;
+            min-width: 80px;
+            padding: 4px 20px 6px;
+            /* pointer-events:none;*/
+            
+        }
+
+.fileCheckbox{
+  visibility: hidden;
+  cursor: pointer;
+}
+
+#folderListTree{
+    position: absolute;
+    z-index: 1;
+    left: -70px;
+    top:50px;
+    padding-top: 20px;
+    padding-right: 20px;
+    height: 80%;
+    border-right: 1px solid grey;
+    overflow-y: hidden;
+    overflow-x: auto;
+    background: #ddd;
+    /*resize:horizontal;*/
+   
+}
+
+#tree{
+    list-style:none;
+    cursor: pointer;
+}
+
+#tree li ul li{
+    visibility: hidden;
+}
+
+
+#containerFile{
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+}
+
+#containerFile:hover .fileCheckbox{
+   visibility: visible;
+  
+    
+}
+
+input:checked {
+   visibility: visible;
+}

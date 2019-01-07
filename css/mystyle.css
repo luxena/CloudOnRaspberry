@@ -1,0 +1,77 @@
+.outline-none{
+    outline:none!important;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+
+.color-darkwater{
+    color: #00ccff;
+}
+
+.bg-darkwater{
+   background: #00ccff;
+}
+
+.bg-grey{
+     background:lightgrey!important;
+}
+
+
+.hg-100{
+   height: 100px; 
+}
+.hg-200{
+    height: 200px; 
+}
+.hg-300{
+    height: 300px; 
+}
+.hg-400{
+   height: 400px;  
+}
+.hg-500{
+    height: 500px; 
+}
+.hg-600{
+    height: 600px; 
+}
+.hg-700{
+    height: 700px; 
+}
+.hg-800{
+    height: 800px; 
+}
+.hg-900{
+    height: 800px; 
+}
+.hg-1000{
+    height: 1000px; 
+}
+
+.hg-1200{
+    height: 1200px; 
+}
+
+.line-hg-100{
+    line-height: 100px;
+}
+
+.line-hg-200{
+    line-height: 200px;
+}
+
+hr{
+margin-top:0px;
+}
+
+.btn-water{
+	color:#fff;
+	background:#22b8cf;
+}
+
+.btn-water:hover{
+	background-color: #138496;
+}

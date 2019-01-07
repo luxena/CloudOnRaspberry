@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    background: #ecedef;
+    background: #000;
+    background: rgba(0,0,0,.5);
+}
+
+input[type=text],[type=password]{
+    outline: none;
+}
+
+section{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    top: 40%;
+    left: 50%;
+    margin-top: 150px;
+    margin-left: -200px;
+    border-radius: 8px;
+    /*background: #008b8b;*/
+    background: #fff;
+    overflow: hidden;
+}
+
+
+
+
+
+article:first-child{
+    width: 400px;
+    height: 100px;
+    background:url('../img/background-login.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+article:nth-child(2){
+    position: relative;
+    top:20px;
+    width: 400px;
+    height: 200px;
+    background-color: #fff;
+    
+}
+
+.ico{
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    font-size: 20px;
+    color: rgba(0,0,0,.5);
+    text-shadow: 0px 0px 4px #008b8b;
+}
+
+.avvisi{
+    
+    margin-top: -10px;
+    width: 265px;
+    display: block;
+    margin-left: 75px;
+    color: #7c7c7c;
+    font-family: system-ui;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.txtLog{
+    position: relative;
+    width: 260px;
+    height: 30px;
+    border:none;
+    border-bottom: 1px solid #b2b2b2;
+    color: #7c7c7c;
+    
+}
+
+.txtLog:hover{border-bottom: 1px solid #57b847;}
+
+.txtLog:active{border-bottom: 1px solid #57b847;}
+
+
+.btnLog{
+    cursor:pointer;
+    position: relative;
+    width: 100px;
+    height: 30px;
+    float: left;
+    margin-left: 70px;
+    margin-top:10px;
+    color: #00ced1;
+    text-shadow: 0px 0px 4px #008b8b;
+    background: #000000;
+    border-radius:30px;
+    font-size: 18px;
+}
+
+.btnLog:active i{
+    color: orange;
+}
+
+.btnLog:hover{
+    border:2px solid #48d1cc;
+    color: darkorange;
+    background: rgba(0,0,0,.7);
+    width: 105px;
+    height: 35px;
+    margin-left: 70px;
+    margin-top:10px;
+    font-size: 20px;
+}
+
+.btnRegister{
+    cursor:pointer;
+    position: relative;
+    width: 100px;
+    height: 30px;
+    float: right;
+    margin-right: 70px;
+    margin-top:10px;
+    background: #000000;
+    border-radius:30px;
+    color: #00ced1;
+    text-shadow: 0px 0px 6px #008b8b;
+    font-size: 14px;
+    font-family: fantasy;
+}
+
+.btnRegister:hover{
+    border:2px solid #48d1cc;
+    color: darkorange;
+    background: rgba(0,0,0,.7);
+    width: 105px;
+    height: 35px;
+    margin-right: 57px;
+    margin-top:10px;
+    font-size: 16px;
+}
+
